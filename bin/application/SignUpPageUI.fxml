@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="711.0" prefWidth="973.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignUpPageUIController">
+   <children>
+      <AnchorPane layoutX="306.0" layoutY="12.0" prefHeight="469.0" prefWidth="358.0" style="-fx-background-color: white; -fx-border-color: black;">
+         <children>
+            <TextField id="emailUser" fx:id="userEmail" layoutX="38.0" layoutY="136.0" prefHeight="37.0" prefWidth="280.0" promptText="Mobile Number or Email" />
+            <Button id="loginButton" layoutX="38.0" layoutY="428.0" mnemonicParsing="false" onAction="#pressSignUpButton" prefHeight="29.0" prefWidth="280.0" style="-fx-background-color: #53b7fa;" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <ImageView fitHeight="103.0" fitWidth="201.0" layoutX="78.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@instagram%20icon.png" />
+               </image>
+            </ImageView>
+            <TextField id="userFullName" fx:id="userFullName" layoutX="39.0" layoutY="182.0" prefHeight="37.0" prefWidth="280.0" promptText="Full Name" />
+            <TextField id="userUserName" fx:id="userUserName" layoutX="39.0" layoutY="229.0" prefHeight="37.0" prefWidth="280.0" promptText="Username" />
+            <PasswordField id="userPassword" fx:id="userPassword" layoutX="40.0" layoutY="275.0" prefHeight="37.0" prefWidth="280.0" promptText="Password" />
+            <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="50.0" layoutY="322.0" prefHeight="21.0" prefWidth="259.0" text="People who use our service may have uploaded">
+               <font>
+                  <Font name="Cambria Math" size="12.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="50.0" layoutY="343.0" prefHeight="21.0" prefWidth="315.0" text="your contact information to Instagram. Learn More">
+               <font>
+                  <Font name="Cambria Math" size="12.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="51.0" layoutY="375.0" prefHeight="21.0" prefWidth="259.0" text="By signing up, you agree to our Terms , Privacy">
+               <font>
+                  <Font name="Cambria Math" size="12.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="104.0" layoutY="396.0" prefHeight="21.0" prefWidth="146.0" text="Policy and Cookies Policy .">
+               <font>
+                  <Font name="Cambria Math" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="76.0" prefHeight="44.0" prefWidth="296.0" text="Sign up to see photos and videos from your friends." textFill="#7c7c7c">
+               <font>
+                  <Font name="Eras Medium ITC" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="458.0" layoutY="562.0" prefHeight="25.0" prefWidth="129.0" text="Get the app." />
+      <ImageView fitHeight="65.0" fitWidth="160.0" layoutX="345.0" layoutY="590.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@google%20play.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="160.0" layoutX="511.0" layoutY="586.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@microsoft.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="335.0" layoutY="673.0" prefHeight="17.0" prefWidth="50.0" text="English">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="412.0" layoutY="675.0" text="\@ 2023 Instagram from Meta" />
+      <AnchorPane layoutX="306.0" layoutY="487.0" prefHeight="73.0" prefWidth="367.0" style="-fx-border-color: black;">
+         <children>
+            <Label layoutX="97.0" layoutY="19.0" prefHeight="37.0" prefWidth="107.0" text="Have an account?">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button id="forgotPass" layoutX="200.0" layoutY="24.0" mnemonicParsing="false" onAction="#pressLoginButton" prefHeight="25.0" prefWidth="58.0" style="-fx-background-color: white;" text="Log In" textFill="#3380b6">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="59.0" layoutY="657.0" text="Meta" />
+      <Label layoutX="102.0" layoutY="657.0" text="About" />
+      <Label layoutX="152.0" layoutY="656.0" text="Blog" />
+      <Label layoutX="194.0" layoutY="656.0" text="Jobs" />
+      <Label layoutX="234.0" layoutY="656.0" text="Help" />
+      <Label layoutX="278.0" layoutY="656.0" text="API" />
+      <Label layoutX="313.0" layoutY="655.0" text="Privacy" />
+      <Label layoutX="361.0" layoutY="655.0" text="Terms" />
+      <Label layoutX="404.0" layoutY="655.0" text="Locations" />
+      <Label layoutX="466.0" layoutY="654.0" text="Instagram Lite" />
+      <Label layoutX="556.0" layoutY="654.0" text="Threads" />
+      <Label layoutX="607.0" layoutY="654.0" text="Contact Uploading &amp; Non-Users" />
+      <Label layoutX="792.0" layoutY="653.0" text="Meta Verified" />
+   </children>
+</AnchorPane>
